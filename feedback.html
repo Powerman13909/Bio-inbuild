@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Playpen+Sans:wght@100..800&family=Teko:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playpen+Sans:wght@100..800&family=Teko:wght@700&display=swap" rel="stylesheet">
+    <script src="bio.js"></script>
+    <link rel="stylesheet" href="form.css">
+    <title>Feedback Form</title>
+
+</head>
+
+<body>
+    <h1>Feedback</h1>
+    <form>
+        <fieldset>
+            <table class="form-table" width="100%">
+                <tr>
+                    <td class="name" width="50%" align="right">Name:</td>
+                    <td width="50%" align="left"><input  class ="inputs"type="Text" /></td>
+                </tr>
+                <tr>
+                    <td class="name" width="50%" align="right">Age:</td>
+                    <td width="50%" align="left"><input  class ="inputs"type="number" /></td>
+                </tr>
+                <tr>
+                    <td class="name" width="50%" align="right">Email:</td>
+                    <td width="50%" align="left"> <input type="text" id="txtEmail" value="Enter your Email"  onFocus= "null" onblur="emailIDvalidate()" onchange="disperror()" /></td>
+                </tr>
+                <tr>
+                    <td class="name" width="50%" align="right">Gender :</td>
+                    <td  width="50%" align="left"><input class="input" type="radio" name="G" style="display:inline" />M <input class="input"type="radio" style="display:inline"
+                            name="G" />F</td>
+                </tr>
+                <tr>
+                    <td class="name" width="50%" align="right">Feedback:</td>
+                    <td  width="50%" align="left"><textarea class="inputs"></textarea></td>
+                </tr>
+                <tr>
+                    <td class="name" width="50%" align="right">Resume :</td>
+                    <td width="50%" align="left"><input type="file" /></td>
+                </tr>
+                <tr>
+                    <td class="name" width="50%" align="right"><input type="checkbox" /></td>
+                    <td width="50%" align="left" >I agree  to all terms and conditions...</td>
+                </tr>
+                <tr>
+                    <td class="name" width="50%" align="right"><input type="reset" value="cancel" /></td>
+                    <td width="50%" align="left"><input type="submit" value="submit" /></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+
+</html>

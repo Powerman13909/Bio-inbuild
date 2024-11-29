@@ -1,0 +1,29 @@
+body {
+    background-image:  url("assets/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+.form-table{
+    display: table;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+    padding: 20px;
+    margin: 20px;
+}
+.name{
+    font-family: "Josefin Sans", sans-serif;
+    font-size:30px;
+    color:rgb(48, 49, 33);
+    margin-left:30%;
+}
+.inputs{
+    height:50px;
+    width:400px;
+    font-size:25px;
+    color:rgb(27, 25, 25)
+}
